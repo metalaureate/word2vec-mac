@@ -1,5 +1,19 @@
 Mac port
+==============
 
+* in the makefile:
+    * replace 'gcc' with 'clang'
+    * replace '-Ofast' with '-O2'
+    * replace '-Who-unused-result' with '-Wunused-result'
+
+* where needed in the *.c files, replace '#include <malloc.h>' with '#include <stdlib.h>'
+
+* intall 'wget' (I use Homebrew, brew install wget)
+* change references to gzip to unzip
+
+I changed the bash files to simply point to sample_data folder and zipped up the text8 sample data file, rather than have it try to download them everytime.
+
+ Unzip the text8.zip file in /sample_data before running any of the bash files.
 
 Tools for computing distributed representtion of words
 ------------------------------------------------------
