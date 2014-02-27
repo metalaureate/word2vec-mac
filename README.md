@@ -15,6 +15,8 @@ I changed the bash files to simply point to sample_data folder and zipped up the
 
  Unzip the text8.zip file in /sample_data before running any of the bash files.
 
+ Then run `bash demo-word.sh`
+
  I also included convertvec (ported to Mac) in the directory /convertvectotext
  https://github.com/marekrei/convertvec
 
